@@ -35,7 +35,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 90vw;
-    height: 60vh;
+    height: 47vh;
     gap: 15px;
     background-color: hsl(213, 19%, 18%);
     border-radius: 15px;
@@ -90,11 +90,6 @@ body {
 .rating-container button.selected {
     background-color: hsl(25, 97%, 53%);
 }
-
-/* .submit {
-    display: flex;
-    justify-content: center;
-} */
 
 .submit button {
     background-color: hsl(25, 97%, 53%);
