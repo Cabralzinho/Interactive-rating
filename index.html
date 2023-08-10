@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>Frontend Mentor | Interactive rating component</title>
+
+</head>
+
+<body>
+    <main class="container">
+        <header class="card-container">
+            <div class="content-container">
+                <div class="star">
+                    <img src="./assets/images/icon-star.svg" alt="">
+                </div>
+                <h2>How did we do?</h2>
+                <p>
+                    Please let us know how we did with your support request. All feedback is appreciated
+                    to help us improve our offering!
+                </p>
+            </div>
+            <div class="rating-container">
+                <button data-value="1" class="rating">1</button>
+                <button data-value="2" class="rating">2</button>
+                <button data-value="3" class="rating">3</button>
+                <button data-value="4" class="rating">4</button>
+                <button data-value="5" class="rating">5</button>
+            </div>
+            <div class="submit center">
+                <button onclick="window.location.href = `./thanks.html`" id="submit-rating" disabled>Submit</button>
+            </div>
+        </header>
+    </main>
+
+
+    <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Cabral</a>.
+  </div> -->
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
