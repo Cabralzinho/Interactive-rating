@@ -35,7 +35,8 @@ body {
     display: flex;
     flex-direction: column;
     width: 90vw;
-    height: 47vh;
+    height: auto;
+    padding-bottom: 20px;
     gap: 15px;
     background-color: hsl(213, 19%, 18%);
     border-radius: 15px;
@@ -135,10 +136,25 @@ body {
     color: var(--paragraph);
 }
 
+@media screen and (min-width: 400px) {
+    .card-container {
+        width: 70vw;
+    }
+    .submit {
+        margin-top: 0px;
+    }
+    .stars-score p {
+        width: 50%;
+    }
+    .content-thanks p {
+        color: var(--paragraph);
+        width: 80%;
+    }
+}
+
 @media screen and (min-width: 600px) {
     .card-container {
         width: 70vw;
-        height: 55vh;
     }
     .submit {
         margin-top: 0px;
@@ -155,7 +171,6 @@ body {
 @media screen and (min-width: 900px) {
     .card-container {
         width: 50vw;
-        height: 55vh;
         gap: 20px;
     }
     .submit {
@@ -177,7 +192,6 @@ body {
 @media screen and (min-width: 1300px) {
     .card-container {
         width: 40vw;
-        height: 55vh;
         gap: 25px;
     }
     .submit {
